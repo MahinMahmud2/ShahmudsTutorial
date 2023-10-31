@@ -235,3 +235,50 @@ body {
 .fade-in {
    animation: fade-in 0.5s ease-in-out forwards;
 }
+
+@media screen and (max-width: 768px) {
+   /* Adjust styles for smaller screens here */
+   .bodyText1 {
+       font-size: 24px; /* Adjust font size for smaller screens */
+   }
+   #bodyImage1 {
+       margin: 10px 0; /* Adjust margin for smaller screens */
+   }
+   #shsatImg, #ccImg {
+       width: 120px; /* Adjust image width for smaller screens */
+   }
+   .classText1 {
+       font-size: 20px; /* Adjust font size for smaller screens */
+   }
+   #classImage1 {
+       padding-right: 10px; /* Adjust padding for smaller screens */
+   }
+   .resourceHead {
+       font-size: 18px; /* Adjust font size for smaller screens */
+   }
+   #prepbooks a {
+       font-size: 14px; /* Adjust font size for smaller screens */
+       margin: 3px 0; /* Adjust margin for smaller screens */
+   }
+
+   #navImg {
+      width: 60px; /* Adjust image width for smaller screens */
+  }
+  .nav1 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+  #contactImage {
+      width: 150px; /* Adjust image width for smaller screens */
+  }
+  #contactImage2 {
+      width: 80px; /* Adjust image width for smaller screens */
+  }
+  #contactPara {
+      font-size: 18px; /* Adjust font size for smaller screens */
+      margin-bottom: 20px; /* Adjust margin for smaller screens */
+  }
+  #contactHead a {
+      font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+}
